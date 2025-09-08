@@ -1,0 +1,36 @@
+# Ambiente virtual
+.venv/
+venv/
+ENV/
+
+# Arquivos compilados do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Banco de dados SQLite (se for só de desenvolvimento)
+db.sqlite3
+
+# Configurações locais
+*.log
+*.pot
+*.pyc
+*.pyo
+*.mo
+*.swp
+.DS_Store
+Thumbs.db
+
+# Arquivos/migrations que não devem ser versionados (apenas os gerados automaticamente)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# VS Code
+.vscode/
