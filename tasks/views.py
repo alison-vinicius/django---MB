@@ -6,3 +6,6 @@ def helloWorld(request):
     return HttpResponse("olá mundo")
 def taskList(request):
     return render(request, 'tasks/list.html')
+
+def yourName(request, name):
+    return render(request, 'tasks/yourname.html', {'name': name})
